@@ -1,0 +1,29 @@
+body {
+  background-image: url(felix-mooneeram-evlkOfkQ5rE-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% auto;
+  background-color: rgb(1, 1, 1);
+}
+
+body * {
+  font-family: "Montserrat", sans-serif;
+}
+
+main * {
+  border: 1px solid red;
+}
+
+main {
+  max-width: 580px;
+  width: 90%;
+  margin: auto;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  color: white;
+}
