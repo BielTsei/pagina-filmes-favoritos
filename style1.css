@@ -63,6 +63,7 @@ section div {
 
 ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 19px;
   margin-top: 24px;
 }
