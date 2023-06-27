@@ -27,20 +27,34 @@ body {
 }
 
 main {
-  margin: auto;
+  margin: 32px auto;
   width: 90%;
   max-width: 580px;
   display: grid;
   gap: 24px;
 }
 
-.foto {
-  text-align: center;
+header {
+  padding-top: 32px;
 }
 
-.foto img {
+header div {
+  width: 130px;
+  margin: auto;
+  background-image: linear-gradient(
+    90deg,
+    rgba(199, 0, 0, 0.8492647058823529) 0%,
+    rgba(33, 4, 6, 0.85) 50%,
+    rgba(40, 1, 61, 0.85) 100%
+  );
   border-radius: 50%;
-  border: 4px #5e1116 solid;
+  display: flex;
+  padding: 4px;
+}
+
+header img {
+  width: 100%;
+  border-radius: 50%;
 }
 
 section {
