@@ -28,6 +28,10 @@ body {
 
 main {
   margin: auto;
+  width: 90%;
+  max-width: 580px;
+  display: grid;
+  gap: 24px;
 }
 
 .foto {
@@ -36,14 +40,41 @@ main {
 
 .foto img {
   border-radius: 50%;
-  border: 4px blue solid;
+  border: 4px #5e1116 solid;
 }
 
-section .filmes {
-  width: 500px;
-  background-color: red;
+section {
+  background-image: linear-gradient(
+    90deg,
+    rgba(199, 0, 0, 0.8492647058823529) 0%,
+    rgba(33, 4, 6, 0.85) 50%,
+    rgba(40, 1, 61, 0.85) 100%
+  );
+  border-radius: 10px;
+  padding-top: 4px;
+}
+
+section div {
+  background-color: #210406;
+  padding: 32px;
+  padding-top: 24px;
+  border-radius: 8px;
 }
 
 ul {
   display: flex;
+  gap: 19px;
+  margin-top: 24px;
+}
+
+ul img {
+  border-radius: 8px;
+}
+
+.box_filmes_series img {
+  width: 90px;
+}
+
+.box_social img {
+  width: 40px;
 }
