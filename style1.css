@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body * {
+  font-family: "Montserrat", sans-serif;
+  list-style: none;
+  color: white;
+}
+
+body p {
+  color: #c1c1c1;
+}
+
+body {
+  background-image: url(felix-mooneeram-evlkOfkQ5rE-unsplash.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-color: rgb(1, 1, 1);
+}
+
+:root {
+  --gradient: linear-gradient(rgb(0, 0, 0) rgb(209, 1, 1) rgb(180, 0, 0));
+}
+
+main {
+  margin: auto;
+}
+
+.foto {
+  text-align: center;
+}
+
+.foto img {
+  border-radius: 50%;
+  border: 4px blue solid;
+}
+
+section .filmes {
+  width: 500px;
+  background-color: red;
+}
+
+ul {
+  display: flex;
+}
