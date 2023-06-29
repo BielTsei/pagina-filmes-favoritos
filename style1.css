@@ -36,6 +36,7 @@ main {
 
 header {
   padding-top: 32px;
+  height: calc(120px+32px);
 }
 
 header div {
@@ -101,9 +102,60 @@ ul img {
 }
 
 .box_filmes_series img {
-  width: 90px;
+  width: 100px;
 }
 
 .box_social img {
   width: 40px;
+}
+
+.credito {
+  text-align: center;
+  padding-bottom: 32px;
+}
+
+/*animation */
+
+header div {
+  animation: fromTop 0.6s 0.2s backwards;
+}
+
+@keyframes fromTop {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+main section {
+  animation: fromBottom 0.7s backwards;
+}
+
+main section:nth-child(1) {
+  animation-delay: 0s;
+}
+
+main section:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+main section:nth-child(3) {
+  animation-delay: 0.5s;
+}
+
+@keyframes fromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
